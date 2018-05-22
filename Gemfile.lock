@@ -1,0 +1,90 @@
+PATH
+  remote: /Volumes/dev/rollout_service/rollout_service
+  specs:
+    rollout_service (0.1.0)
+      active_attr (~> 0.9.0)
+      activesupport (~> 5.0)
+      grape
+      grape-entity (~> 0.5.0)
+      httparty (~> 0.13.7)
+      redis
+      require_all
+      rollout
+
+GEM
+  specs:
+    active_attr (0.9.0)
+      activemodel (>= 3.0.2, < 5.1)
+      activesupport (>= 3.0.2, < 5.1)
+    activemodel (5.0.1)
+      activesupport (= 5.0.1)
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    builder (3.2.3)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    concurrent-ruby (1.0.4)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    grape (0.19.1)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      mustermann-grape (~> 0.4.0)
+      rack (>= 1.3.0)
+      rack-accept
+      virtus (>= 1.0.0)
+    grape-entity (0.5.2)
+      multi_json (>= 1.3.2)
+    hashie (3.4.6)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.7.0)
+    ice_nine (0.11.2)
+    json (1.8.6)
+    minitest (5.10.1)
+    multi_json (1.12.1)
+    multi_xml (0.6.0)
+    mustermann (0.4.0)
+      tool (~> 0.2)
+    mustermann-grape (0.4.0)
+      mustermann (= 0.4.0)
+    rack (2.0.1)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-cors (0.4.1)
+    redis (4.0.1)
+    require_all (1.4.0)
+    rollout (2.4.0)
+    thread_safe (0.3.5)
+    tool (0.2.3)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  grape
+  rack-cors
+  redis
+  rollout_service!
+
+BUNDLED WITH
+   1.16.2
